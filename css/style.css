@@ -41,11 +41,12 @@ h4 {
 }
 
 p {
-    color: #777;
+    /*--color: #777;-*/
     font-size: 15px;
     font-weight: 300;
     line-height: 26px;
     letter-spacing: 0.2px;
+    text-indent:2em; 
 }
 
 strong {
@@ -177,6 +178,9 @@ a:hover, a:active, a:focus {
     Main Navigation             
 -----------------------------------------*/
 
+
+
+
 .navbar-default {
     background: #ffffff;
     padding: 18px 0;
@@ -190,6 +194,7 @@ a:hover, a:active, a:focus {
 
 .navbar-default .navbar-brand {
   padding-top: 10px;
+
 }
 
 .navbar-default .navbar-brand .fa {
